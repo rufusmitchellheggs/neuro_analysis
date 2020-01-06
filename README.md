@@ -2,8 +2,8 @@
 Neurodata preprocessing and secondary analysis
 
 ## Projects:
-Social interaction (mPFC)  
-Memory and Spatial Navigation (CA1 Hippocampus)
+#### Social interaction (mPFC)  
+#### Memory and Spatial Navigation (CA1 Hippocampus)
 
 ## preprocessing: 
 #### cnmfe.ipynb isx.wrapper  
