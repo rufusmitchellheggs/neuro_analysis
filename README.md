@@ -19,8 +19,8 @@ Ouput: Table with aligned calcium, x,y animal location, behavioural vector .csv 
 ## place_cell_analysis: 
 place_cell_identification_master.ipynb & place_cell_functions.py   
 Place cell identification using criteria:  
-    1. Cell has be a good cell both for df/f and for event traces
-    2. Cell fire >3 times in any session
-    3. Cell is in 0.05 mutual information percentile (threshold can be adapted)
-    4. Occupancy >5 (threshold can be adapted)
+1. Cell has be a good cell both for df/f and for event traces  
+2. Cell fire >3 times in any session  
+3. Cell is in 0.05 mutual information percentile (threshold can be adapted)  
+4. Occupancy >5 (threshold can be adapted)
 
