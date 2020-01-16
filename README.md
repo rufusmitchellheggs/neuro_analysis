@@ -1,9 +1,11 @@
 # neuro_analysis
-Neurodata preprocessing and secondary analysis
+Endoscopic single-photon calcium imaging enables across day neural imaging of freely moving animals.  This repository contains a modular toolkit that suggests approaches to preprocess and analyse large quantities of neural data.  The scripts described below have been developed from three projects, encompassing two brain regions.  
 
-## Projects:
-#### Social interaction (mPFC)  
-#### Memory and Spatial Navigation (CA1 Hippocampus)
+For any information, please don't hestitate to get in touch: rufusmitchellheggs@gmail.com
+
+## Projects and brain regions:
+#### - Social interaction (mPFC)  
+#### - Memory and Spatial Navigation (CA1 Hippocampus)
 
 ## preprocessing: 
 #### cnmfe.ipynb (isx wrapper)
