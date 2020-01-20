@@ -30,7 +30,7 @@ Place cell identification for Longitudinally registered cells - iterates through
 |Animal|Session|Stage|Neuron|Status|Mutual_Information|Percentile|Distribution|
 |------|-------|-----|------|------|------------------|----------|------------|
 |      |       |     |      |      |                  |          |            |   
-|      |       |     |      |      |                  |          |            |
+
 
 
 Place cell identification criteria:  
