@@ -27,12 +27,12 @@ Aligns calcium traces/events with behavioural videos.  Features include LED ligh
 #### place_cell_identification_master.ipynb & place_cell_functions.py   
 Place cell identification for Longitudinally registered cells - iterates through dataframe containing each session and respective stages, storing the following information:  
 
-|Animal|Session|Stage|Neuron|Place Cell Status|
+|Animal|Session|Stage|Neuron|Place Cell Status|  
 |------|-------|-----|------|------|----------|
 
 
-|Place Cell Centre/Centres|Place Cell Centre Event count|Rewarded Well|
-|-------------------------|-----------------------------|-------------|
+|Place Cell Centre|Place Cell Centre Event count|Rewarded Well|
+|-----------------|-----------------------------|-------------|
 
 
 |Euclidean Distance from SW1|Euclidean Distance from SW2|Euclidean Distance from SW3|
@@ -46,8 +46,8 @@ Place cell identification for Longitudinally registered cells - iterates through
 Place cell identification criteria:  
 1. Cell has be a good cell both for df/f and for event traces  
 2. Cell fire >3 times in any session  
-3. Cell is in 95th mutual information percentile compared to 10000 SI shuffled distribution (threshold can be adapted)  
-4. Occupancy >5 (threshold can be adapted) <---- still to be implemented
+3. Occupancy >5 (threshold can be adapted)  
+4. Cell is in 95th mutual information percentile compared to 10000 SI shuffled distribution (threshold can be adapted)  
 
 
 
