@@ -40,7 +40,7 @@ Place cell identification for Longitudinally registered cells - iterates through
 
 
 |Mutual_Information|Percentile|Distribution|
-|------------------|-----------------------|
+|------------------|----------|------------|
 
 
 Place cell identification criteria:  
