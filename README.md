@@ -28,7 +28,7 @@ Aligns calcium traces/events with behavioural videos.  Features include LED ligh
 Place cell identification for Longitudinally registered cells - iterates through dataframe containing each session and respective stages, storing the following information:  
 
 |Animal|Session|Stage|Neuron|Place Cell Status|  
-|------|-------|-----|------|------|----------|
+|------|-------|-----|------|-----------------|
 
 
 |Place Cell Centre|Place Cell Centre Event count|Rewarded Well|
