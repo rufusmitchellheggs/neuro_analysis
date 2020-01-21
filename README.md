@@ -36,7 +36,7 @@ Place cell identification for Longitudinally registered cells - iterates through
 
 
 |Euclidean Distance from SW1|Euclidean Distance from SW2|Euclidean Distance from SW3|
-|-------------------------|-----------------------------|---------------------------|
+|---------------------------|---------------------------|---------------------------|
 
 
 |Mutual_Information|Percentile|Distribution|
