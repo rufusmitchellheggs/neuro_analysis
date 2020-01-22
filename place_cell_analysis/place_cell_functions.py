@@ -124,10 +124,10 @@ def occupancy_map(events_dlc, cells, plot_occupancy=None):
         event_occupancy, xedges, yedges = np.histogram2d(x, y, bins=(xedges, yedges), weights = weights)
         event_occupancy = event_occupancy.T
 
-        # Normalize events by occupancy and add gaussian filter
-        place_field = np.nan_to_num(event_occupancy/spatial_occupancy)
-        place_field = gaussian_filter(place_field, sigma=1)
-        place_field_dic[cells[neuron]] = place_field
+        # # Normalize events by occupancy and add gaussian filter
+        # place_field = np.nan_to_num(event_occupancy/spatial_occupancy)
+        # place_field = gaussian_filter(place_field, sigma=1)
+        # place_field_dic[cells[neuron]] = place_field
         
         # plot place fields (Optional)   
         if plot_occupancy == True:
@@ -377,5 +377,5 @@ def mi_perc_dis(neuron_events, occupancy_map, shuffles=10):
     mi = np.array(mi_place_response_2(neuron_events, occupancy_map))
     
     # Create a shuffled distribition and determine the percentile of information
-    perc, dist = percentile(shuffled_mi_place_response(neuron_events, occupancy_map, shuffles=100), mi)
+    perc, dist = percentile(shuffled_mi_place_response(neuron_events, occupancy_map, shuffles=shuffles), mi)
     return mi, perc, dist
