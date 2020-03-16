@@ -1,5 +1,5 @@
 ## preprocessing: 
-![alt text](https://raw.githubusercontent.com/rufusmitchellheggs/neuro_analysis/preprocessing/preprocessing_pipeline.png)
+![alt text](https://github.com/rufusmitchellheggs/neuro_analysis/blob/master/preprocessing/preprocessing_pipeline.png)
 
 
 #### cnmfe.ipynb (isx wrapper)
