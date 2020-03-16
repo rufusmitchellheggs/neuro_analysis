@@ -1,3 +1,4 @@
+![alt text](https://github.com/rufusmitchellheggs/neuro_analysis/blob/master/place_cell_analysis/place_cell_table.png)
 
 
 ## place_cell_analysis: 
