@@ -1,7 +1,6 @@
-## preprocessing: 
 ![alt text](https://github.com/rufusmitchellheggs/neuro_analysis/blob/master/preprocessing/preprocessing_pipeline.png)
 
-
+## preprocessing: 
 #### cnmfe.ipynb (isx wrapper)
 Applies Constrained-non negative matrix factorisation extended (CNMF-e), a method devloped by Caiman, to identify and seperate out neurons.  Consequent calcium traces are deconvolved using OASIS AR1 and event traces extracted.  
 - Input: x2 spatially downsampled, spatially bandpassed and motion corrected .isxd file  
