@@ -15,14 +15,14 @@ Input - single csv containing:
 
 Ouput - csv file containing aligned:  
 - Calcium traces (raw or events) 
-- x,y animal location (OPTIONAL downsampling & interpolation). 
-- Behavioural vector. 
-- Speed. 
-- Movement status. 
-- Stage/Session. 
-- Sand well locations. 
-- Door opening time. 
-- Tone time. 
+- x,y animal location (downsampling & interpolation OPTIONAL) 
+- Behavioural vector 
+- Speed 
+- Movement status 
+- Stage/Session 
+- Sand well locations 
+- Door opening time 
+- Tone time 
 
 #### preprocessing_ea_old.py   
 Aligns calcium traces/events with behavioural videos.  Features include LED light, sandwell and door opening detection.  
