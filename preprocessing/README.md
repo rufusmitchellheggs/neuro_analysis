@@ -7,7 +7,8 @@ Applies Constrained-non negative matrix factorisation extended (CNMF-e), a metho
 - Output: Calcium traces and event traces cell contours in .isxd format
 
 #### LR_alignment.ipynb & lr_alignment_functions.py & __init__.py
-Alignment of DLC behaviour with raw calcium traces/event traces originating from the same neurons across multiple stages and multiple sessions.  Features include LED light, sandwell and door opening detection.    
+Alignment of DLC behaviour with raw calcium traces/event traces originating from the same neurons across multiple stages and multiple sessions.  Features include LED light, sandwell and door opening detection.  
+  
 Input - single csv containing:  
 - All raw calcium traces or event traces
 - Behavioural videos
