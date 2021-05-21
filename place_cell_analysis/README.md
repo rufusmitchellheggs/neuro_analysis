@@ -6,9 +6,12 @@
 Place cell identification for Longitudinally registered cells - iterates through dataframe containing each session and respective stages, storing the following information:  
 
 Place cell identification criteria:  
-1. Cell has be a good cell both for df/f and for event traces  
-2. Cell fire >3 times in any session  
-3. Occupancy >5 (threshold can be adapted)  
-4. Cell is in 95th mutual information percentile compared to 10000 SI shuffled distribution (threshold can be adapted)
 
-(currently in the process of implementing CDM mutual information estimator for sparse sampling)
+CONDITION 1: set n events for a cell to be considered
+
+CONDITION 2: Set place cell spatial info percentile (spatial information can be calculated using Kraskow or Skaggs)
+
+CONDITION 3: set number of traversals to be considered
+
+CONDITION 4: % traversals that cell fires <-- accounts for rdm bursting
+
